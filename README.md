@@ -56,10 +56,10 @@ cd spacetime-envelope-v2
 
 > **⚠️ Known Issues & Recommendations**
 >
-> - **QR puzzle mode is currently broken** — recognition often fails entirely (including direct file upload). This is a known issue and cannot be fixed in the short term. **Please use `.sste` envelope format instead.**
+> - **QR puzzle mode is currently broken** — recognition often fails entirely (including direct file upload). This is a known issue and cannot be fixed in the short term. **Use the Print Version (ZIP) instead** — it generates individual QR code pages that are much more reliable for scanning.
 > - **PNG output** embeds metadata via steganography, which may leave readable plaintext traces. For better privacy, **use JPEG or `.sste`**.
 >
-> **In short: stick with `.sste`** — it's the only format that is both reliable and privacy-safe. QR puzzles should only be used when image-based transfer is absolutely necessary, with the understanding that recognition may fail.
+> **In short**: `.sste` is the most reliable all-around format. If you must use QR, go with the **Print Version (ZIP)** rather than the image puzzle.
 
 ---
 
