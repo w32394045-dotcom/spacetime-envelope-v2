@@ -54,6 +54,15 @@ cd spacetime-envelope-v2
 
 ---
 
+> **⚠️ Known Issues & Recommendations**
+>
+> - **QR puzzle scanning** can be unreliable across different devices and lighting conditions — **we recommend using the `.sste` envelope format** for the most reliable transfer experience.
+> - **PNG output** embeds metadata using steganography, which may leave readable plaintext traces in the encoded image. For better privacy, **use JPEG or `.sste` instead**.
+>
+> Bottom line: `.sste` is the most robust and privacy-preserving option. Use QR puzzles only when visual/image-based transfer is unavoidable.
+
+---
+
 ## 📖 Usage
 
 ### Encrypt & Send
